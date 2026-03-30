@@ -1,0 +1,35 @@
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.hero p {
+  color: #666;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,.2);
+}
+
+/* Card */
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 12px rgba(0,0,0,.08);
+}
