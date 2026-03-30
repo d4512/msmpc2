@@ -23,6 +23,15 @@
   margin-bottom: 2rem;
 }
 
+.hero-credit {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  font-size: 12px;
+  color: #fff;
+  opacity: 0.7;
+}
+
 /* BUTTON */
 .hero-btn {
   display: inline-block;
