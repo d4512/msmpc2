@@ -1,5 +1,5 @@
 /* HERO SECTION */
-.hero {
+/*.hero {
   height: 100vh;
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
               url('9227.jpg.jpeg') center/cover no-repeat;
@@ -8,21 +8,21 @@
   justify-content: center;
   text-align: center;
   color: #fff;
-}
+}*/
 
 /* CONTENT */
-.hero-content h1 {
+/*.hero-content h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-}
+}*/
 
-.hero-content p {
+/*.hero-content p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-}
+}*/
 
 /* BUTTON */
-.hero-btn {
+/*.hero-btn {
   display: inline-block;
   padding: 12px 24px;
   font-size: 1rem;
@@ -31,16 +31,16 @@
   border-radius: 6px;
   text-decoration: none;
   transition: all 0.3s ease;
-}
+}*/
 
 /* HOVER EFFECT */
-.hero-btn:hover {
+/*.hero-btn:hover {
   background-color: #e60000;
   transform: translateY(-2px);
-}
+}*/
 
 /* MOBILE RESPONSIVE */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .hero-content h1 {
     font-size: 2rem;
   }
@@ -48,4 +48,40 @@
   .hero-content p {
     font-size: 1rem;
   }
+}*/
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.hero p {
+  color: #666;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,.2);
+}
+
+/* Card */
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 12px rgba(0,0,0,.08);
 }
