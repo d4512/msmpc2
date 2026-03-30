@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Fallback redirect (works without JS) -->
+  <meta http-equiv="refresh" content="3; url=/en/">
+
+  <title>Redirecting...</title>
+
+  <script>
+    var base = "/msmpc2";
+    var lang = navigator.language || navigator.userLanguage;
+
+    if (lang.startsWith('bn')) {
+      window.location.href = base + "/bn/";
+    } else {
+      window.location.href = base + "/en/";
+    }
+  </script>
+</head>
+
+<body>
+  <h2>Select Language</h2>
+
+  <p>If you are not redirected automatically:</p>
+
+  <ul>
+    <li><a href="/en/">English</a></li>
+    <li><a href="/bn/">বাংলা</a></li>
+  </ul>
+</body>
+</html>
 
