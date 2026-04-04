@@ -3,6 +3,11 @@
   --primary: #2a5298;
   --bg: #f2f4f8;
   --text: #333;
+  
+  --header-footer-bg: linear-gradient(135deg, #1e3c72, #2a5298);
+  --header-footer-text: #fff;
+
+  --primary-light: color-mix(in srgb, var(--primary) 30%, white);
 }
 
 
