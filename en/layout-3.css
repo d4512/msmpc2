@@ -1,0 +1,26 @@
+.navbar a {
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+  padding: 6px 4px;
+}
+
+.navbar a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background: var(--primary);
+  transition: width 0.3s;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+.navbar a.active::after {
+  width: 100%;
+}
