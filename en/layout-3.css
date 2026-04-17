@@ -82,3 +82,13 @@ header {
 .navbar a.active::after {
   width: 100%;
 }
+
+/* Footer */
+footer {
+  background: #1a1a1a;
+  color: #ddd;
+  text-align: center;
+  padding: 1.2rem;
+  margin-top: 2rem;
+  font-size: .9rem;
+}
