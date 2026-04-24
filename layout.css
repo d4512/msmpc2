@@ -18,6 +18,10 @@ header {
   align-items: center;
 }
 
+.logo {
+  height: 50px; /* adjust if needed */
+}
+
 .lang-switch a {
   text-decoration: none;
   font-weight: 600;
