@@ -18,6 +18,24 @@ header {
   align-items: center;
 }
 
+/* Right side */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Instagram icon */
+.insta-link img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease;
+}
+
+.insta-link img:hover {
+  transform: scale(1.2);
+}
+
 .lang-switch a {
   text-decoration: none;
   font-weight: 600;
